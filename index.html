@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetic Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Beauty Hub</h1>
+        <nav>
+            <a href="#products">Products</a>
+            <a href="#advertisements">Advertisements</a>
+            <a href="#reviews">Reviews</a>
+        </nav>
+    </header>
+
+    <section id="products">
+        <h2>Shop Our Products</h2>
+        <div class="product-list">
+            <!-- Sample product -->
+            <div class="product">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product Name</h3>
+                <p>$19.99</p>
+                <button onclick="orderProduct('Product Name')">Order Now</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <section id="advertisements">
+        <h2>Special Offers</h2>
+        <div class="ad">
+            <p>Get 20% off on your first order!</p>
+            <button onclick="claimOffer()">Claim Offer</button>
+        </div>
+        <!-- Additional advertisements can be added here -->
+    </section>
+    <input type="date" >
+    <input type="form" >
+
+    <section id="reviews">
+        <h2>Customer Reviews</h2>
+        <div id="review-list">
+            <!-- Customer reviews will be displayed here -->
+        </div>
+        <h3>Leave a Review</h3>
+        <textarea id="review-text" placeholder="Write your review..."></textarea>
+        <button onclick="submitReview()">Submit Review</button>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
